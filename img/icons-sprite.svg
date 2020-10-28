@@ -1,0 +1,167 @@
+<svg width="0" height="0" class="hidden">
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="coins">
+		<path d="M398 30C360 11 309 0 256 0S152 11 114 30c-44 21-67 52-67 86v280c0 34 23 65 67 86 38 19 89 30 142 30s104-11 142-30c44-21 67-52 67-86V116c0-34-23-65-67-86zM256 47c93 0 163 36 163 69s-70 70-163 70-163-37-163-70 70-69 163-69zm163 349c0 33-70 69-163 69S93 429 93 396v-19l21 12c38 19 89 30 142 30a325 325 0 00163-42v19zm0-93c0 33-70 69-163 69S93 335 93 303v-19l21 12c38 19 89 30 142 30a325 325 0 00163-42v19zm0-94c0 33-70 70-163 70S93 242 93 209v-18l21 12c38 19 89 30 142 30a325 325 0 00163-42v18z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="timer">
+		<path d="M0 336h173v40H0zM0 416h143v40H0zM0 256h203v40H0z"/><path d="M444 111l19-21 22 19 27-30-76-65-26 30 22 20-18 21c-34-25-75-41-118-44V0h-40v41c-43 3-84 19-119 44l-18-21 22-20-26-30-76 65 27 30 22-19 19 21c-29 30-49 66-59 105h41a196 196 0 1194 232v45a235 235 0 00261-382z"/><path d="M256 120v176h133v-40h-93V120z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 15 11" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="field-success">
+		<path d="M15 1l-8 9-1 1-6-6 1-1 5 5 8-9 1 1z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 436 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="secure">
+		<path d="M218 158a98 98 0 100 196 98 98 0 000-196zm58 80l-70 70a15 15 0 01-21 0l-27-27a15 15 0 1121-21l16 16 60-60a15 15 0 1121 22z"/><path d="M435 139v-16c0-29-23-52-51-54-59-3-104-22-143-60h-1a33 33 0 00-44 0h-1c-39 38-84 57-143 60-28 2-51 25-51 54v16c-2 60-3 135 22 203 14 37 34 70 62 96a324 324 0 00133 74 37 37 0 0012-2c49-17 90-41 121-72 27-26 48-59 62-96 25-68 24-143 22-203zM218 384a128 128 0 110-256 128 128 0 010 256z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="field-error">
+		<path d="M6 5h1l3 3-2 2-3-3-3 3-2-2 3-3h1-1L0 2l2-2 3 3 3-3 2 2-3 3H6z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="close">
+		<path d="M6 5h1l3 3-2 2-3-3-3 3-2-2 3-3h1-1L0 2l2-2 3 3 3-3 2 2-3 3H6z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="low-price">
+		<path d="M404 212V17H109v195H0l257 284 256-284H404zM68 242h71V47h235v195h72L257 451 68 242z"/><path d="M289 231l-20-11-11-6-7-5c-5-4-6-7-6-12 0-7 5-13 12-13s12 2 18 13l2 4 23-14-2-4c-6-13-15-21-27-24v-18h-26v18c-17 5-28 21-28 39 0 12 4 22 12 29 8 6 13 10 25 15 18 9 24 15 24 23 0 6-2 10-4 14-4 4-9 6-16 6-13 0-20-7-25-27l-2-6-24 14 1 4c4 21 18 36 37 41v18h26v-19c9-2 16-6 22-13 9-9 13-19 13-32-1-15-6-25-17-34z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="auction">
+		<path d="M382 135l-3-4-94-73-24 31 93 71 69 90 30-24-71-91zM259 255l-71-92-30 24 73 94 3 3 91 70 24-30-90-69z"/><path d="M264 277L85 465l-38-38 188-180-27-27L6 413a19 19 0 000 27l66 66a19 19 0 0027 0l193-202-28-27z"/><path d="M109 345l27-27 58 58-27 27zM506 257l-43-43c-7-8-20-8-27 0L313 337c-8 7-8 19 0 27l43 43a19 19 0 0027 0l123-123c8-7 8-20 0-27zM370 366l-17-16 96-96 17 17-96 95zM298 49L255 6c-8-8-20-8-27 0L105 129c-8 7-8 19 0 27l43 43a19 19 0 0027 0L298 76c8-7 8-19 0-27zM162 159l-17-17 96-96 17 17-96 96z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 510 510" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="success">
+		<path d="M150 207l-35 35 115 115 255-255-36-36-219 220-80-79zm309 48c0 112-92 204-204 204S51 367 51 255A205 205 0 01311 59l41-41A256 256 0 000 255c0 140 115 255 255 255s255-115 255-255h-51z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="headset">
+		<path d="M472 232v-16A215 215 0 00256 0 215 215 0 0040 216v16c-23 7-40 28-40 53v80c0 30 25 55 55 55h60c8 0 15-7 15-15V216a126 126 0 01252 0v189c0 8 7 15 15 15h25v17c0 8-7 15-15 15h-99c-6-17-22-30-42-30h-20a45 45 0 000 90h20c20 0 36-13 42-30h99c25 0 45-20 45-45v-17h5c30 0 55-25 55-55v-80c0-25-17-46-40-53zM266 482h-20a15 15 0 010-30h20a15 15 0 010 30zm-166-92H55c-14 0-25-11-25-25v-80c0-14 11-25 25-25h45zM256 60c-86 0-156 70-156 156v14H70v-14a186 186 0 01372 0v14h-30v-14c0-86-70-156-156-156zm226 305c0 14-11 25-25 25h-45V260h45c14 0 25 11 25 25z"/><path d="M286 377a15 15 0 0025-12v-35h5c19 0 35-16 35-35v-80c0-19-16-35-35-35H196c-19 0-35 16-35 35v80c0 19 16 35 35 35h35zm-95-82v-80c0-3 2-5 5-5h120c3 0 5 2 5 5v80c0 3-2 5-5 5h-20c-8 0-15 7-15 15v18l-35-30c-3-2-6-3-10-3h-40c-3 0-5-2-5-5z"/><path d="M276 270a15 15 0 000-30h-40a15 15 0 000 30z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="shield">
+		<path d="M420 65c-48-9-93-35-115-50a87 87 0 00-98 0c-22 15-67 42-115 50-29 5-50 30-50 59v121c0 40 11 79 33 116 17 28 41 56 71 81 50 43 100 65 102 66l8 4 8-4c2-1 52-23 102-66 30-25 54-53 71-81 22-37 33-76 33-116V124c0-29-21-54-50-59zm10 180c0 59-30 115-89 166-35 30-70 49-85 57-35-18-174-97-174-223V124c0-9 7-18 17-19 55-10 105-40 130-57a48 48 0 0154 0c25 17 75 47 130 57 10 1 17 10 17 19v121z"/><path d="M225 294l-68-64-28 30 99 92 156-176-30-26z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 10 19" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="facebook">
+		<path d="M5.8 6.5V4.2C5.8 3.5 6.3 3 7 3H8V0H5.8c-2 0-3.5 1.6-3.5 3.6v3H0v2.9h2.3V19h3.5V9.5h2.3l1.2-3H5.8z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 17 15" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="twitter">
+		<path d="M15.1 4.4V4A7 7 0 0016.8 2c-.6.3-1.2.5-2 .6.8-.5 1.3-1.2 1.6-2-.7.4-1.4.7-2.2.8A3.5 3.5 0 0011.7.3C9.7.3 8.2 2 8.2 4v.8a9.8 9.8 0 01-7-3.9C.9 1.4.7 2 .7 2.7c0 1.2.6 2.4 1.5 3-.5 0-1-.2-1.5-.4 0 1.8 1.2 3.3 2.7 3.6A3.3 3.3 0 012 9 3.5 3.5 0 005 11.6 6.7 6.7 0 010 13c1.5 1 3.3 1.7 5.3 1.7 6.3 0 9.8-5.5 9.8-10.3z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 19 19" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="youtube">
+		<path d="M6.5.5l-.7 2.8L5 .5H3.8l1.5 4.6v2h.8V5L7.7.5H6.5zm3.7 3c0-.3-.1-.7-.3-1-.3-.2-.4-.4-.8-.4-.5 0-.6.2-1 .4-.2.3-.3.6-.3 1v2.2c0 .4.1.7.4 1 .3.2.4.4.8.4.5 0 .6-.1.8-.4.3-.2.4-.6.4-1V3.5zm3.3-1.4h-.8v3.3l-.6.7h-.2V2H11v4c0 .3 0 .8.2 1 .1 0 .5 0 .8-.2.3-.2.5-.4.7-.8v.8h.8V2.1zm5 10c0-2-1.5-3.4-3.4-3.4H3.7A3.3 3.3 0 00.4 12v3.1c0 1.9 1.5 3.4 3.3 3.4h11.4c1.9 0 3.3-1.5 3.3-3.4v-3zm-4.6 4.7c-.4 0-.7 0-.9-.3-.2-.3-.3-.6-.3-1v-2c0-.3.1-1 .3-1.2.3-.2.6-.4 1-.4.3 0 .6.2.8.4.2.2.3.9.3 1.3v.8h-1.5v1.5l.3.2.3-.1v-.7h1v.2c0 .4-.2.8-.4 1-.2.2-.5.3-.9.3zm.4-3v-.2l-.1-.8-.3-.1-.3.1v.9h.7zm-3.2 3a1 1 0 01-.5 0l-.3-.4v.4h-.9v-6.5h.8v2l.4-.4h.4c.3 0 .5 0 .7.2l.2.9v2.9c0 .3 0 .5-.2.7-.2.2-.4.2-.6.2zm0-3.8l-.2-.3-.3-.1h-.1l-.3.1V16l.3.2h.4l.2-.4V13zm-3.4 3.2l-.5.5a1 1 0 01-.5.1c-.2 0-.3 0-.4-.2a1 1 0 01-.2-.5V12H7v3.8l.1.2h.5l.3-.3V12h.8v4.8h-.9v-.6zm-2.4.6h-.8v-5.7h-.8v-.8h2.5v.8h-.9v5.7zM9 6.2L8.7 6l-.1-.3V3.5l.1-.3.3-.1.3.1.1.3v2.3l-.1.3H9z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 13 13" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="instagram">
+		<path d="M2 .2H11c1 0 1.6.7 1.6 1.6v9.4c0 .9-.7 1.6-1.6 1.6H2c-.8 0-1.5-.7-1.5-1.6V1.8C.4.9 1 .2 1.9.2zm7.4 1.4c-.3 0-.6.2-.6.5v1.4c0 .3.3.6.6.6h1.4c.3 0 .5-.3.5-.6V2.1c0-.3-.2-.5-.5-.5H9.4zm2 4h-1.2c.2.3.2.6.2 1a3.8 3.8 0 11-7.5-1H1.7v5.3c0 .3.3.5.5.5h8.6c.3 0 .5-.3.5-.5V5.5zM6.5 4A2.5 2.5 0 004 6.5c0 1.3 1 2.4 2.5 2.4C7.9 9 9 8 9 6.5S8 4 6.6 4z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="user">
+		<path d="M437 331a255 255 0 00-97.3-61 148 148 0 10-167.4 0A255 255 0 0075 331 254.3 254.3 0 000 512h40c0-119.1 96.9-216 216-216s216 96.9 216 216h40c0-68.4-26.6-132.7-75-181zm-181-75a108.1 108.1 0 010-216 108.1 108.1 0 010 216z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="facebook-filled">
+		<path d="M512 256a256 256 0 10-256 256h5V313h-55v-64h55v-48c0-54 33-84 82-84l49 2v58h-34c-26 0-31 12-31 31v40h63l-8 65h-55v189a256 256 0 00185-246z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="twitter-filled">
+		<path d="M256 0a256 256 0 100 512 256 256 0 000-512zm117 200v7c0 78-59 167-167 167-33 0-64-9-90-26a120 120 0 0087-24c-26-1-48-18-55-41a58 58 0 0026-1c-26-6-47-29-47-58v-1c8 5 17 8 27 8a59 59 0 01-18-79c29 36 72 59 121 62a59 59 0 01100-54c13-2 26-7 37-14-4 14-13 25-26 32 12-1 24-4 34-9-8 12-18 22-29 31zm0 0"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="twitter-filled">
+		<path d="M256 0a256 256 0 100 512 256 256 0 000-512zm117 200v7c0 78-59 167-167 167-33 0-64-9-90-26a120 120 0 0087-24c-26-1-48-18-55-41a58 58 0 0026-1c-26-6-47-29-47-58v-1c8 5 17 8 27 8a59 59 0 01-18-79c29 36 72 59 121 62a59 59 0 01100-54c13-2 26-7 37-14-4 14-13 25-26 32 12-1 24-4 34-9-8 12-18 22-29 31zm0 0"/>
+	</symbol>
+
+	<symbol viewBox="0 0 567 567" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="steam-filled">
+		<path d="M187 437l-56-22a69 69 0 1029-74l56 21a40 40 0 01-29 75zM399 276a85 85 0 100-171 85 85 0 000 171zm0-146a60 60 0 110 121 60 60 0 010-121z"/><path d="M493 0H74C33 0 0 33 0 74v205l108 41c21-24 52-39 86-40l65-87a139 139 0 11129 139l-76 57v7a116 116 0 11-232 0v-1L0 365v128c0 41 33 74 74 74h419c41 0 74-33 74-74V74c0-41-33-74-74-74z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="skype-filled">
+		<path d="M497 310A243 243 0 00217 21C124-36 0 29 0 140c0 25 7 50 19 70a243 243 0 00284 285c121 64 255-63 194-185zM334 411c-45 18-119 18-163-5-64-34-76-111-21-111 42 0 29 49 71 68 19 9 60 10 84-6s22-41 9-53c-34-31-132-19-177-74a80 80 0 011-97c42-54 164-57 216-16 49 37 36 87-3 87-47 0-23-62-99-62-55 0-76 39-38 59 53 26 187 17 187 119 0 43-26 74-67 91z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="messenger-filled">
+		<path d="M256 0C115 0 0 106 0 237c0 75 37 141 95 185v90l88-48c23 7 47 10 73 10 141 0 256-106 256-237S397 0 256 0zm25 319l-65-69-127 69 140-148 67 69 125-69-140 148z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="whatsapp-filled">
+		<path d="M256 0a256 256 0 100 512 256 256 0 000-512zm5 405c-25 0-50-6-73-19l-81 22 22-80A153 153 0 01261 99a152 152 0 01154 153c0 84-69 153-154 153zm0 0"/><path d="M261 124a128 128 0 00-107 196l3 4-13 47 48-12 5 2c19 12 42 18 64 18a128 128 0 000-255zm75 183c-3 8-18 17-25 18s-15 1-25-2l-21-8c-39-16-64-55-66-58-2-2-15-20-15-39s9-28 13-32c3-4 8-5 10-5h8c2 0 5-1 8 7l12 28c1 2 2 4 0 7l-9 13c-2 2-4 4-2 8s10 16 21 26c15 13 27 17 31 19s6 2 8-1l13-15c2-4 5-3 8-2l26 13 8 4c1 2 1 10-3 19zm0 0"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="search">
+		<path d="M506 476L360 330a203 203 0 10-30 30l146 146a21 21 0 0030 0c8-9 8-22 0-30zM203 363a160 160 0 110-321 160 160 0 010 321z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 216 216" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="gmail-filled">
+		<path d="M108 0a108 108 0 100 216 108 108 0 000-216zm49 60l-49 38-50-38h99zm5 96H53V76l50 38 5 2 4-2 50-39v81z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 13 12" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="arrows">
+		<path d="M5.6 4l1.8 2-1.8 2-3.7 4L0 10l3.7-4L0 2l1.9-2 3.7 4zm0 6l3.7-4-3.7-4 1.8-2 3.7 4L13 6l-1.9 2-3.7 4-1.8-2z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 390" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="envelope">
+		<path d="M467 0H45A45 45 0 000 45v300a45 45 0 0045 45h422a45 45 0 0045-45V45a45 45 0 00-45-45zm-6 30L257 234 51 30h410zM30 339V51l145 143L30 339zm21 21l145-145 50 51a15 15 0 0022 0l49-50 144 144H51zm431-21L338 195 482 51v288z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="messenger">
+		<path d="M256 0C115 0 0 106 0 237c0 75 37 141 95 185v90l88-48c23 7 47 10 73 10 141 0 256-106 256-237S397 0 256 0zm25 319l-65-69-127 69 140-148 67 69 125-69-140 148z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="whatsapp">
+		<path d="M256 0A256 256 0 0049 406l-32 95 98-31A256 256 0 10256 0zm149 362c-6 17-31 31-50 36-14 2-31 5-90-20-75-31-124-107-127-112-4-5-31-41-31-77s19-55 26-63c7-6 17-9 27-9h8c8 1 11 1 16 13l23 55c2 4 4 9 2 14l-9 12-11 12c-3 4-7 9-3 16 4 8 20 32 42 52 28 25 51 33 60 37 6 2 13 2 18-3l20-26c5-8 11-9 18-6 7 2 44 21 51 24 8 4 13 6 14 9 2 3 2 18-4 36z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="ea-games">
+		<path d="M112 112l-32 64h192l32-64z"/><path d="M352 112L221 336H103l37-64h68l32-64H48l-32 64h50L0 400h259l93-171 20 43h-20l-32 64h84l32 64h76z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="cup">
+		<path d="M497 37h-66l1-22c0-8-7-15-15-15H95c-8 0-15 7-15 15l1 22H15C7 37 0 44 0 52c0 67 18 131 49 179 32 47 74 74 119 77 11 11 22 20 33 27v67h-25c-31 0-55 24-55 55v25h-2a15 15 0 000 30h274a15 15 0 100-30h-1v-25c0-31-25-55-56-55h-25v-67c11-7 22-16 33-27 45-3 87-30 119-77 31-48 49-112 49-179 0-8-7-15-15-15zM74 214c-26-40-41-91-44-147h52a501 501 0 0060 205c-25-10-49-30-68-58zm364 0c-19 28-43 48-67 58l12-23c25-50 41-114 47-182h52c-3 56-18 107-44 147zm0 0"/>
+	</symbol>
+
+	<symbol viewBox="0 0 107.6 107.6" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="playstation">
+		<path d="M11.7 67.6L8.1 69C2.7 71.3-.1 73.7 0 75.8c.3 3 3.8 5.4 10.2 7a62 62 0 0025.4 1.5v-8.7l-6.9 2.6c-7.2 2.5-10.9.4-10.9.4-1.1-.7-1.6-2.4 1.4-3.5l3.8-1.4 12.6-4.5V59l-3.2 1-20.7 7.5zM64.3 32.5v25.9c5.4 2.6 10.2 2.8 13.8 0 3.7-2.5 5.7-7 5.7-13.8 0-7.1-1.4-12.5-4.5-16.1-2.8-3.8-7.8-7-15.2-9.5-9.2-3-17-5.6-23.2-7v77.6l16.7 5V30.4c-.1-4 6.7-3.6 6.7 2.2z"/><path d="M106.7 72.5c-.1-2.7-3.3-4.8-9-6.7a50 50 0 00-17.9-3c-5.5.2-12.1 2-18 3.9v9.9L78 70.9s4.9-1.8 9.1-.7c3.2.8 3 2.6-.2 3.7l-3.7 1.5L61.8 83v10l10-3.5 24-8.5 2.8-1.3c5.8-2.1 8.4-4.4 8.1-7.3z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="percent">
+		<path d="M396 117c-7-6-17-6-23 0L118 372a16 16 0 1023 23l255-255c6-6 6-16 0-23zM177 113a63 63 0 100 127 63 63 0 000-127zm0 94a31 31 0 110-62 31 31 0 010 62z"/><path d="M256 0a256 256 0 101 513 256 256 0 00-1-513zm0 480a224 224 0 110-448 224 224 0 010 448z"/><path d="M337 273a63 63 0 100 126 63 63 0 000-126zm0 94a31 31 0 110-62 31 31 0 010 62z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="logout">
+		<path d="M255 469H64c-12 0-21-10-21-22V65c0-12 9-22 21-22h191a21 21 0 100-42H64C29 1 0 29 0 65v382c0 36 29 64 64 64h191a21 21 0 100-42z"/><path d="M506 241L376 113a21 21 0 10-29 31l92 91H191a21 21 0 100 42h248l-92 91a21 21 0 1029 31l130-128a21 21 0 000-30z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="dashboard">
+		<path d="M417 0H95C43 0 0 43 0 95v322c0 52 43 95 95 95h322c52 0 95-43 95-95V95c0-52-43-95-95-95zm65 417c0 36-29 65-65 65H95c-36 0-65-29-65-65V95c0-36 29-65 65-65h322c36 0 65 29 65 65v322z"/><path d="M401 96H208c-8 0-15 7-15 15v82h-82c-8 0-15 7-15 15v193c0 8 7 15 15 15h193c8 0 15-7 15-15v-82h82c8 0 15-7 15-15V111c0-8-7-15-15-15zM289 386H126V223h163v163zm97-97h-67v-81c0-8-7-15-15-15h-81v-67h163v163z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 385 393" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="filter">
+		<path d="M368 0H17C11 0 6 3 3 9S0 21 4 26l128 181h1c4 7 7 14 7 22v148a16 16 0 0023 15l72-28c6-2 11-8 11-15V229c0-8 2-15 7-22L381 26c4-5 4-11 2-17-3-6-9-9-15-9zM237 196c-7 9-11 21-11 33v117l-66 25V229c0-12-4-24-11-33L24 20h337L237 196z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="calendar">
+		<path d="M446 40h-46V16a16 16 0 00-32 0v24H144V16a16 16 0 00-32 0v24H66C30 40 0 70 0 106v340c0 36 30 66 66 66h380c36 0 66-30 66-66V106c0-36-30-66-66-66zM66 72h46v16a16 16 0 0032 0V72h224v16a16 16 0 0032 0V72h46c19 0 34 15 34 34v38H32v-38c0-19 15-34 34-34zm380 408H66c-19 0-34-15-34-34V176h448v270c0 19-15 34-34 34z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="list">
+		<path d="M492 236H144a20 20 0 100 40h348a20 20 0 100-40zM492 86H144a20 20 0 100 40h348a20 20 0 100-40zM492 386H144a20 20 0 100 40h348a20 20 0 100-40z"/><circle cx="27" cy="106" r="27"/><circle cx="27" cy="256" r="27"/><circle cx="27" cy="406" r="27"/>
+	</symbol>
+
+	<symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="alert">
+		<path d="M502 385L321 51a74 74 0 00-65-36c-27 0-51 13-65 36v1L11 384a74 74 0 00-1 76c13 23 38 37 65 37h361c27 0 52-14 66-37 14-24 13-52 0-75zM226 167a30 30 0 1160 0v120a30 30 0 01-60 0V167zm30 270a45 45 0 110-90 45 45 0 010 90z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 293.7 293.7" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="stats">
+		<path d="M27 240c-7 0-13 6-13 13v28a13 13 0 0025 0v-28c0-7-5-13-12-13zM87 180c-7 0-13 6-13 13v88a13 13 0 0025 0v-88c0-7-5-13-12-13zM147 120c-7 0-13 6-13 13v148a12 12 0 0025 0V133c0-7-5-13-12-13zM207 60c-7 0-13 6-13 13v208a12 12 0 0025 0V73c0-7-5-13-12-13zM267 0c-7 0-13 6-13 13v268a12 12 0 0025 0V13c0-7-5-13-12-13z"/>
+	</symbol>
+
+	<symbol viewBox="0 0 507.2 507.2" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" fill-rule="evenodd" clip-rule="evenodd" id="wallet">
+		<path d="M457 90c-2-35-32-63-68-63H69C31 27 0 57 0 95v317c0 38 31 69 69 69h370c38 0 68-31 68-69V156c0-32-21-58-50-66zM69 59h320c17 0 32 12 36 28H69c-14 0-26 4-37 11v-3c0-20 16-36 37-36zm370 390H69c-21 0-37-17-37-37V156c0-20 16-37 37-37h370c20 0 36 17 36 37v56H373a73 73 0 000 146h102v54c0 20-16 37-36 37zm36-123H373a41 41 0 010-82h102z"/><circle cx="379.2" cy="286.1" r="16.7"/>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 456.5 456.5" id="support"><path d="M128 457c-14 0-22-3-23-4-7-2-11-9-9-16l21-70A196 196 0 0117 198C17 89 112 0 228 0s211 89 211 198a203 203 0 01-207 198h-1a13 13 0 013-26c100-3 178-79 178-172 0-94-82-171-184-171S44 104 44 198c0 63 37 120 96 150a13 13 0 016 17l-20 65c14 0 38-3 66-24a13 13 0 0116 21c-32 24-61 30-80 30z"/><path d="M228 144H109a11 11 0 010-22h119a11 11 0 010 22zM228 210H109a11 11 0 010-21h119a11 11 0 010 21zM228 277H109a11 11 0 010-22h119a11 11 0 010 22zM293 165l-1 4-2 4a10 10 0 01-8 3c-3 0-6-1-8-3s-3-5-3-8c0-7 2-13 4-19a51 51 0 0127-27 48 48 0 0138 1 52 52 0 0127 26 49 49 0 01-11 54l-16 15c-6 6-8 12-8 18a10 10 0 01-11 11c-3 0-6-1-8-3s-3-4-3-8c0-12 5-23 15-33l16-15a28 28 0 000-40l-9-6-11-2a28 28 0 00-20 8 28 28 0 00-8 20zM336 267c0 4-2 7-5 10s-6 5-10 5-8-2-10-5c-3-3-5-6-5-10s2-8 5-10c2-3 6-5 10-5s7 2 10 5c3 2 5 6 5 10z"/></symbol>
+</svg>

@@ -1,0 +1,68 @@
+.user-block{
+	display: flex;
+	align-items: center;
+
+	.block-avatar{
+		margin-right: 48px;
+		flex: none;
+		display: block;
+		border-radius: 50%;
+		position: relative;
+		margin-bottom: -2px;
+		margin-top: -2px;
+
+		img{
+			display: block;
+			width: 44px;
+			height: 44px;
+			border-radius: 50%;
+		}
+
+		&.online{
+			&:after{
+				content: '';
+				display: block;
+				width: 8px;
+				height: 8px;
+				background: $primary;
+				border-radius: 50%;
+				position: absolute;
+				left: -1px;
+				top: 7px;
+			}
+		}
+	}
+
+	.block-logout{
+		a{
+			display: block;
+
+			svg{
+				display: block;
+				width: 20px;
+				height: 20px;
+				fill: #cccccc;
+				transition: all $t;
+			}
+
+			&:hover{
+				svg{
+					fill: $text-dark;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		.block-avatar{
+			margin-right: 24px;
+			margin-bottom: 0;
+			margin-top: 0;
+
+			img{
+				width: 40px;
+				height: 40px;
+			}
+		}
+	}
+}

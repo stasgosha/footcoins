@@ -1,0 +1,135 @@
+.how-to-buy-section{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 160px 0 170px;
+
+	.section-inner{
+		display: flex;
+	}
+
+	.section-header{
+		max-width: 350px;
+		margin-right: 125px;
+	}
+
+	.section-steps{
+
+	}
+
+	.steps-list{
+		counter-reset: steps;
+
+		li{
+			counter-increment: steps;
+			margin-bottom: 125px;
+			display: flex;
+			align-items: center;
+			color: #fff;
+			font-size: 24px;
+			line-height: 1.25;
+			position: relative;
+
+			&:before{
+				content: '0'counter(steps);
+				margin-right: -0.2em;
+				font-size: 90px;
+				line-height: 1;
+				font-weight: 900;
+				color: #fff;
+				opacity: .1;
+			}
+
+			&:after{
+				content: '';
+				display: block;
+				width: 93px;
+				height: 131px;
+				background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 93 131'%3E%3Cpath stroke='%23FF244A' stroke-width='3' stroke-dasharray='12, 6' fill='none' d='M10.5 2.5s-13.4 44.3 3 71c18.5 30 67 43 67 43'/%3E%3Cpath fill-rule='evenodd' fill='%23FF244A' d='M83.6 108l6.2 10.7 1.5 2.7-13.3 7.9-1.5-2.7 10.6-6.3-6.1-10.7 2.6-1.6z'/%3E%3C/svg%3E") no-repeat center center / contain;
+				position: absolute;
+				left: -14px;
+				top: calc(100% + 12px);
+			}
+
+			&:nth-child(2){
+				margin-left: 95px;
+			}
+
+			&:nth-child(3){
+				margin-left: calc(95px * 2);
+			}
+
+			&:last-child{
+				margin-bottom: 0;
+
+				&:after{
+					display: none;
+				}
+			}
+		}
+	}
+
+	.section-footer{
+		margin-top: 60px;
+		padding-left: calc(95px * 2);
+	}
+
+	@media screen and (max-width: 1199px){
+		.section-header{
+			margin-right: 55px;
+		}
+	}
+
+	@media screen and (max-width: 991px){
+		.steps-list{
+			li{
+				margin-left: 0 !important;
+
+				&:after{
+					display: none;
+				}
+			}
+		}
+
+		.section-footer{
+			padding-left: 0;
+		}
+
+		.section-header{
+			max-width: 300px;
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		padding: 60px 0 75px;
+
+		.section-inner{
+			flex-direction: column;
+		}
+
+		.section-header{
+			margin-right: 0;
+			max-width: 170px;
+			margin-bottom: 40px;
+		}
+
+		.steps-list{
+			li{
+				margin-bottom: 40px;
+				font-size: 18px;
+
+				&:before{
+					font-size: 70px;
+					margin-right: 0.2em;
+				}
+			}
+		}
+
+		.section-footer{
+			max-width: unset;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+}

@@ -1,0 +1,44 @@
+.inner-page-section{
+	padding-bottom: 90px;
+
+	.section-text{
+		margin-bottom: 45px;
+		font-size: 18px;
+		color: rgba(#fff, .5);
+		max-width: 920px;
+
+		a:not(.btn){
+			color: $primary;
+
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+
+	.page-text{
+		max-width: 920px;
+		color: rgba(#fff, .5);
+	}
+
+	.section-content{
+		margin-bottom: 70px;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		padding-bottom: 70px;
+
+		.section-text{
+			font-size: 15px;
+			line-height: 2;
+		}
+	}
+}

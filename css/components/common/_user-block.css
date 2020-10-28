@@ -1,0 +1,12 @@
+.user-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .user-block .block-avatar img {
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%; }

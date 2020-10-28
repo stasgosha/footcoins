@@ -1,0 +1,89 @@
+.notification-block{
+	margin-bottom: 40px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	color: #7f6045;
+	padding: 20px 25px;
+	border-radius: 10px;
+
+	@media screen and (max-width: 767px){
+		align-items: flex-start;
+	}
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+
+	.block-icon{
+		flex: none;
+		margin-right: 20px;
+		width: 30px;
+		height: 30px;
+		fill: currentcolor;
+
+		&.small{
+			width: 20px;
+			height: 20px;
+		}
+	}
+
+	&.warning{
+		background: #342d27;
+	}
+
+	&.danger{
+		background: #3f1b29;
+		color: #ff244a;
+	}
+
+	&.no-bg{
+		background: transparent;
+		padding: 0;
+	}
+
+	.dismiss-btn{
+		position: relative;
+		width: 30px;
+		height: 30px;
+		margin-left: auto;
+		color: inherit;
+
+		&:before,
+		&:after{
+			content: '';
+			display: block;
+			width: 12px;
+			height: 2px;
+			background: currentcolor;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		&:before{
+			transform: translate(-50%, -50%) rotate(-45deg);
+		}
+
+		&:after{
+			transform: translate(-50%, -50%) rotate(45deg);
+		}
+
+		&:hover{
+			color: #fff;
+		}
+	}
+}
+
+.i-icon{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #342d27;
+	color: #fff;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+}

@@ -1,0 +1,30 @@
+.text-section{
+	padding: 75px 0 130px;
+
+	.section-inner{
+		max-width: 980px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	p{
+		font-size: 18px;
+		line-height: 2;
+		margin-bottom: 2em;
+		color: rgba(#fff, .5);
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		padding: 25px 0 70px;
+
+		p{
+			font-size: 14px;
+			color: #ffffff;
+		}
+	}
+}

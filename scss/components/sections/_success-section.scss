@@ -1,0 +1,71 @@
+.success-section{
+	padding: 135px 0 190px;
+	background: url(../img/backgrounds/succes-bg.jpg) no-repeat center bottom;
+	color: #fff;
+
+	@media screen and (min-width: 768px){
+		min-height: calc(100vh - 70px - 174px);
+		display: flex;
+		align-items: center;
+	}
+
+	.section-inner{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		max-width: 550px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.section-icon{
+		width: 100px;
+		height: 100px;
+		fill: #148d4a;
+		margin-bottom: 42px;
+		display: block;
+	}
+
+	.page-caption{
+		margin-bottom: 35px;
+	}
+
+	.section-text{
+		width: 100%;
+		font-size: 18px;
+
+		a{
+			color: $primary;
+			text-decoration: underline;
+
+			&:hover{
+				text-decoration: none;
+			}
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		padding: 55px 0 100px;
+		background-size: contain;
+
+		.section-inner{
+			max-width: calc(100% - 50px * 2);
+		}
+
+		.section-image{
+			width: 72px;
+			height: 72px;
+			margin-bottom: 27px;
+		}
+
+		.page-caption{
+			margin-bottom: 20px;
+		}
+
+		.section-text{
+			font-size: 15px;
+			line-height: 2;
+		}
+	}
+}

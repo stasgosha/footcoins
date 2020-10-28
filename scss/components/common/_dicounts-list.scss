@@ -1,0 +1,90 @@
+.dicounts-list{
+	.item{
+		display: flex;
+		align-items: center;
+		margin-bottom: 25px;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+
+	.item-badge{
+		margin-right: 25px;
+		flex: none;
+		width: 80px;
+		border-radius: 5px;
+		font-size: 16px;
+		line-height: 27px;
+		padding: 0 5px;
+		color: #14121a;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		white-space: nowrap;
+		background: #aa7f53;
+
+		&.bronze{
+			background: #aa7f53;
+		}
+
+		&.silver{
+			background: #c0c0c0;
+		}
+
+		&.gold{
+			background: #d4af37;
+		}
+
+		&.platinum{
+			background: #afaca6;
+		}
+
+		&.diamond{
+			background: #b9f2ff;
+		}
+	}
+
+	.item-discount{
+		flex: none;
+		margin-right: 25px;
+		text-align: right;
+		font-size: 14px;
+		line-height: 1.2;
+		color: rgba(#fff, .2);
+
+		strong{
+			display: block;
+			font-size: 30px;
+			line-height: 1.2;
+			color: #fff;
+		}
+	}
+
+	.item-description{
+		font-size: 14px;
+		color: #fff;
+	}
+
+	@media screen and (max-width: 575px){
+		.item{
+			flex-wrap: wrap;
+			justify-content: flex-start;
+			margin-bottom: 30px;
+		}
+
+		.item-badge{
+			margin-right: calc(100vw - 15px * 2 - 80px);
+			margin-bottom: 15px;
+		}
+
+		.item-discount{
+			width: 80px;
+		}
+
+		.item-description{
+			width: calc(100% - 80px - 25px);
+		}
+	}
+}

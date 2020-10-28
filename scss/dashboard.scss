@@ -1,0 +1,41 @@
+@import "components/fonts";
+@import "components/vars";
+@import "components/assist";
+@import "components/dashboard/layout";
+@import "components/dashboard/typography";
+@import "icons";
+
+// Header
+@import "components/header/header";
+
+// Footer
+@import "components/footer/footer";
+
+// Common
+@import "components/common/buttons";
+@import "components/common/forms";
+@import "components/common/sliders";
+@import "components/common/modals";
+@import "components/common/menu-opener";
+@import "components/common/dropdown";
+@import "components/common/accordion";
+@import "components/common/notification-block";
+@import "components/common/popover-block";
+@import "components/common/user-info-block";
+@import "components/common/gray-card";
+@import "components/common/tabs-nav";
+@import "components/common/toggle-filter";
+@import "components/common/accounts-list";
+@import "components/common/current-ballance-block";
+@import "components/common/withdraw-form";
+@import "components/common/tables";
+@import "components/common/reward-block";
+@import "components/common/balance-and-withdraw-block";
+@import "components/common/banners-block";
+@import "components/common/pagination";
+@import "components/common/point-and-level-block";
+@import "components/common/user-block";
+@import "components/common/single-ticket-component";
+
+// Sections
+@import "components/sections/sidebar";

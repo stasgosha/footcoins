@@ -1,0 +1,40 @@
+.withdraw-form{
+	.form-inner{
+		display: flex;
+		width: calc(100% + 15px * 2);
+		margin-left: -15px;
+		margin-right: -15px;
+		flex-wrap: wrap;
+		
+		.column{
+			padding: 0 15px;
+			width: 25%;
+			margin-bottom: 30px;
+
+			&.wide{
+				width: 50%;
+			}
+		}
+	}
+
+	@media screen and (max-width: 991px){
+		.form-inner{
+			.column{
+				width: 50%;
+				margin-bottom: 24px;
+
+				&.wide{
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 575px){
+		.form-inner{
+			.column{
+				width: 100%;
+			}
+		}
+	}
+}

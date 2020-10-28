@@ -1,0 +1,24 @@
+// Fonts
+$main-font: 'DinPRO', Arial, sans-serif;
+$second-font: $main-font;
+// $third-font: 'Playfair Display SC', serif;
+
+// Colors
+$pink: #ff244a;
+
+$dark: #222;
+$gray: #2A2B2D;
+$light: #99A2B4;
+
+$text-color: #fff;
+$text-dark: #231f20;
+$text-light: rgba(#000, .5);
+
+$primary: $pink;
+$accent: $pink;
+
+// Params
+$body-bg: url(../img/backgrounds/body-bg.jpg); // site background
+$t: .3s; // animation duration
+$r: 6px; // default border radius
+$shadow: 0px 5px 15px rgba(0, 0, 0, 0.08); // default card shadow

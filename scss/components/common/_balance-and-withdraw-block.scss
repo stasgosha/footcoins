@@ -1,0 +1,32 @@
+.balance-and-withdraw-block{
+	display: flex;
+	align-items: center;
+
+	.block-button{
+		margin-left: 20px;
+	}
+
+	.block-balance{
+		font-size: 24px;
+		margin-left: 10px;
+	}
+
+	p{
+		strong{
+			font-size: 24px;
+		}
+	}
+
+	@media screen and (max-width: 575px){
+		flex-wrap: wrap;
+
+		.block-text{
+			width: 100%;
+			margin-bottom: 5px;
+		}
+
+		.block-balance{
+			margin-left: 0;
+		}
+	}
+}

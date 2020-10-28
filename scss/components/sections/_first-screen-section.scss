@@ -1,0 +1,155 @@
+.first-screen-section{
+	.section-inner{
+		display: flex;
+	}
+
+	.section-content{
+		max-width: 350px;
+		margin-right: 30px;
+		flex: none;
+		padding: 65px 0 80px;
+		position: relative;
+		z-index: 2;
+	}
+
+	.section-text{
+		font-size: 18px;
+		line-height: 2;
+		font-weight: bold;
+		margin-bottom: 40px;
+	}
+
+	.section-footer{
+		display: flex;
+
+		.item{
+			margin-right: 30px;
+
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+
+		@media screen and (max-width: 767px){
+			.btn.btn-big{
+				min-height: 40px;
+				padding: 5px 20px;
+			}
+		}
+	}
+
+	.section-image{
+		// overflow: hidden;
+
+		img{
+			display: block;
+			height: calc(100% + 23px);
+			margin-top: -20px;
+			width: auto;
+		}
+	}
+
+	.container{
+		position: relative;
+	}
+
+	.section-coins{
+		position: absolute;
+		right: -25px;
+		bottom: -18px;
+	}
+
+	@media screen and (max-width: 991px){
+		.section-coins{
+			right: -145px;
+			bottom: -45px;
+		}
+
+		.section-image{
+			img{
+				margin-left: -40px;
+			}
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		.section-content{
+			padding: 50px 0 40px;
+			max-width: 160px;
+		}
+
+		.section-footer{
+			flex-direction: column;
+
+			.item{
+				margin-right: 0;
+				margin-bottom: 12px;
+
+				&:last-child{
+					margin-bottom: 0;
+				}
+			}
+		}
+
+		.section-text{
+			font-size: 14px;
+			line-height: 24px;
+			margin-bottom: 25px;
+		}
+	}
+
+	@media screen and (max-width: 575px){
+		.section-image{
+			display: flex;
+			align-items: flex-end;
+			justify-content: flex-end;
+			flex: auto;
+
+			img{
+				width: 347px;
+				height: auto;
+				margin-left: -80px;
+			}
+		}
+
+		.section-coins{
+			bottom: -5px;
+			right: -70px;
+
+			img{
+				width: 159px;
+				height: auto;
+			}
+		}
+	}
+}
+
+.fs-caption{
+	margin-bottom: 35px;
+	font-size: 55px;
+	line-height: 1.2;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+
+	strong{
+		color: $primary;
+		font-size: 95px;
+		line-height: 1;
+		font-weight: 900;
+		background: url(../img/backgrounds/page-caption-bg.jpg) no-repeat center center / cover;
+		background-clip: text;
+		-webkit-background-clip: text;
+		text-fill-color: transparent;
+		-webkit-text-fill-color: transparent;
+	}
+
+	@media screen and (max-width: 767px){
+		margin-bottom: 20px;
+		font-size: 24px;
+
+		strong{
+			font-size: 40px;
+		}
+	}
+}

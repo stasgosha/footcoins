@@ -1,0 +1,42 @@
+.accounts-list{
+	.item{
+		margin-bottom: 6px;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+}
+
+.account-card{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	padding: 13px 16px;
+	border-radius: $r;
+	background: #19171e;
+
+	.card-icon{
+		width: 30px;
+		height: 30px;
+		margin-right: 18px;
+		flex: none;
+		fill: #fff;
+	}
+
+	.card-content{
+		margin-right: auto;
+		color: rgba(#fff, .3);
+
+		p{
+			font-size: 14px;
+			line-height: 18px;
+			margin-bottom: 0;
+		}
+
+		.card-name{
+			color: #fff;
+		}
+	}
+}
